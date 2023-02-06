@@ -1,23 +1,49 @@
-# QRCODE Generator
-QR code that generate a link to the page with rendered 10 random movies
+# QRCode Generator
+A web application for converting your url into qrcode
 
-## Task 
-[] Create A QR Code Generator - Create a QR code generator. After scanning a QR code there should be a link to the page with rendered 10 random movies (title + image).
+## Getting started
+Follow the instructions below to get the project to your local mnachine
+### Prerequisite
+For you to run this project locally on your machine, you should have the following tools installed
+- Text editor - Any text editor with access to a terminal ([VS CODE](https://code.visualstudio.com/) recommend)
+- Node - A JavaScript runtime enviroment. (if not installed download [here](https://nodejs.org/en/))
 
-### Requirements
-- Project must be done in Nest.js
-- You should use typescript.
-- Project should be on some free platform (Heroku, etc.) and must be available to test online. We want to make sure you are aware of how to deploy apps.
-- Place your code on github (or any other platform you prefer to store your code). Send us back a link to it. Make sure it is public.
+```sh
+$ node -v
+v18.13.0
+```
+- Git - A version control software to enable you clone a repository (if not installed [click here](https://git-scm.com/))
+- Web Browser - Any webbrowser that can connect to the internet 
 
-### task
-- Your task is to generate a QR code that will give a user link to the page with a list of 10 movies.
-- For this you will need two pages:
-- Page with a QR code to scan
-- Page with a list of movies received from the scanning of QR code.
-- How you will display it on the front-end is totally up to you. It might react, jquery, pure js, or build-in templates - it doesn't matter to us. We will look only backend logic.
-- QR code must be regenerated every 10 seconds and return a new link to another 10 random movies.
+### Set up
+To start your own instance of the project, first you need to open your terminal or a text editor with a terminal. The follow the following step:
 
-### Demo movies JSON
+1. Clone the repository
+```bash
+$ git clone https://github.com/St-Pardon/backend-projects.git
+``` 
 
-[json data](https://gist.github.com/saniyusuf/406b843afdfb9c6a86e25753fe2761f4)
+2. Navigate to the repository and list the contents
+```bash
+$ cd qrcode-generator
+``` 
+3. Install the dependencies
+```bash
+$ npm install
+```
+
+4. Once successful, start your server
+    - with nodemon
+        ```bash
+        $ npm run start
+        ```
+    - without nodemon
+        ```bash
+        $ node app.js
+        ```
+There you go!! The application is live 🚀
+
+Open any API client or your browser to interact with it.
+
+## Deployement
+Application is live at [qrcode]()
