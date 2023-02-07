@@ -8,7 +8,6 @@ const generate = (req, res) => {
   if (!url) res.send('No URL was provided');
   toDataURL(url, (err, src) => {
     if (err) res.send('An error occured try again later');
-    console.log(typeof src )
     res.render('generate', { src });
   });
 };
