@@ -1,5 +1,5 @@
 # QRCode Generator
-A web application for converting your url into qrcode
+A simple web application for converting your url into qrcode submited for the **Github Code Innovation Series** Hackathon
 
 ## Getting started
 Follow the instructions below to get the project to your local mnachine
@@ -46,4 +46,11 @@ There you go!! The application is live 🚀
 Open any API client or your browser to interact with it.
 
 ## Deployement
-Application is live at [qrcode]()
+Application is live at [qrcode](https://dead-tan-greyhound-ring.cyclic.app)
+
+## Student Developer Pack Used
+- Github Codespases
+- Visual Studio Code
+
+## Authors
+Onu Onyedikachi
