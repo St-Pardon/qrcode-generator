@@ -60,7 +60,6 @@ Open any API client or your browser to interact with it.
 The simple application will give users the ability to convert and share url through QRCode, by printing, sharing, or downloading it so as to post on public places, screens or media for people to scan and gain access to the site.
 
 
-
 ## Deployement
 Application is live at [qrcode](https://dead-tan-greyhound-ring.cyclic.app)
 
